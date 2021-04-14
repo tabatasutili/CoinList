@@ -1,0 +1,6 @@
+framework module CoinList {
+  umbrella header "CoinList-umbrella.h"
+
+  export *
+  module * { export * }
+}
