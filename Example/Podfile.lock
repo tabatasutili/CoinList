@@ -1,8 +1,14 @@
 PODS:
   - CoinList (0.1.0)
+  - SwiftLint (0.43.1)
 
 DEPENDENCIES:
   - CoinList (from `../`)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - SwiftLint
 
 EXTERNAL SOURCES:
   CoinList:
@@ -10,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CoinList: 44950cd5a2c00df63ace566f4267e5efbccf68c7
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
 
-PODFILE CHECKSUM: 03c4204d5e59a76b874da95915c741f3e098331c
+PODFILE CHECKSUM: 1ab66c89ac7ceb06faf0ea1c9b886a59bd79f8dd
 
 COCOAPODS: 1.10.1

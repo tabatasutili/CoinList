@@ -1,9 +1,11 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'CoinList_Example' do
   pod 'CoinList', :path => '../'
+  pod 'SwiftLint'
+
 
   target 'CoinList_Tests' do
     inherit! :search_paths
@@ -11,3 +13,4 @@ target 'CoinList_Example' do
     
   end
 end
+
